@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- bootstrap link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!--Custom CSS Link  -->
+  <link rel="stylesheet" href="./css/landing.css">
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="navbarContainer">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="profileLogo" src="./assets/png/profile.png" alt="Profile Logo">
+        <a class="navbar-brand justify-content-start" href="#">Prabhat Patidar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- hero section  -->
+  <section class="homeHero" id="home">
+    <div class="homeHeroContent">
+      <h1 class="mainHeading">Hey, My name is <br><p></p>
+        <span class="name"> Prabhat Patidar </span></h1>
+      <div class="mainInfo">
+        <p>A focused and enthusiastic Frontend Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product design.</p>
+      </div>
+      <div class="btnContainer">
+        <button onclick="window.location.href='#project';" class="homeBtn">Projects</button>
+      </div>
+    </div>
+    <!-- home social section  -->
+    <!-- <div class="homeHeroSocials"> -->
+      <!-- indivisual social icon -->
+      <!-- 1- linkedIn -->
+      <!-- <div class="homeHeroSocial">
+        <a class="socialLink" href="#"><img class="socialIcon" src="./assets/png/linkedin-ico.png" alt="LinkedIn"></a>
+      </div> -->
+      <!-- 2-Github  -->
+      <!-- <div class="homeHeroSocial">
+        <a class="socialLink" href="#"><img class="socialIcon" src="./assets/png/github-ico.png" alt="GitHub"></a> -->
+      <!-- </div> -->
+      <!-- 3-Twitter -->
+      <!-- <div class="homeHeroSocial">
+        <a class="socialLink" href="#"><img class="socialIcon" src="./assets/png/twitter-ico.png" alt="Twitter"></a>
+      </div> -->
+      <!-- 4-Instagram -->
+      <!-- <div class="homeHeroSocial">
+        <a class="socialLink" href="#"><img class="socialIcon" src="./assets/png/insta-ico.png" alt="Instagram"></a>
+      </div> -->
+      <!-- 5-Youtube -->
+      <!-- <div class="homeHeroSocial">
+        <a class="socialLink" href="#"><img class="socialIcon" src="./assets/png/yt-ico.png" alt="Youtube"></a>
+      </div>
+    </div> -->
+    <!-- animated mouse -->
+    <!-- <div class="homeHeroMouse">
+      <div class="mouse"></div>
+    </div> -->
+  </section>
+
+  <!-- about section  -->
+  <section class="aboutSection" id="about">
+    <!-- heading about  -->
+    <div class="mainContainer">
+      <h2 class="aboutHeading">
+        <span class="aboutHeadingMain">About Me</span><hr style="margin: 0 25px 0 25px; background-color: #0088ff;
+        height: 10px; border-radius: 4px;">
+        <span class="aboutHeadingSub">Here you will find more information about me, what I am, what I can do, and my current skills mostly in terms of programming and technology.</span>
+      </h2>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <!-- sub1 about headings -->
+            <div class="aboutSub1">
+              <div class="aboutSubContent"> 
+                <h3 class="aboutSub1Heading">Get to know me!</h3>
+                <div class="subDetailsCont">
+                  <p class="subdetails">
+                    Hey!! , It's
+                    <strong>Prabhat Patidar</strong>
+                    and I'm a <strong> Frontend Web Developer </strong> located in
+                    Indore, MadhyaPradesh, Pursuing <strong> MCA </strong> from INSTITUTE OF COMPUTER SCIENCE, VIKRAM UNIVERSITY UJJAIN. As a Frontend Web Developer, i am in direction of to be <strong> Full-Stack Web Developer </strong>soon.
+                  </p>
+                  <p class="subdetails">
+                    I'm a bit of a digital product junky. Over the years, I've used
+                    hundreds of web and mobile apps in different industries and
+                    verticals. How to use them, what smart things can be done with them. Feel free to
+                    <strong>contact</strong> me here.
+                  </p>
+                </div>
+                <button onclick="window.location.href='#contact';" class="ContactBtn">Contact</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <!-- sub2 about headings -->
+            <div class="aboutSub2">
+              <H3 class="aboutSub2Heading">My Skills</H3>
+              <div class="skillsList">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">BootStrape</div>
+                <div class="skill">Django</div>
+                <div class="skill">Python</div>
+                <div class="skill">Salesforce</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Git</div>
+                <div class="skill">Wordpress</div>
+                <div class="skill">Graphic Designing  Tools</div>
+                <div class="skill">Adobe Photoshop & AI</div>
+                <div class="skill">Networking</div>
+              </div>
+            </div>  
+          </div>
+  </section>
+          </div>
+        </div>
+      </div>
+    
+      
+
+  <!-- project section  -->
+  <section class="ProjectSection" id="project">
+    <!-- project heading  -->
+    <div class="mainProjectsContainer">
+      <h2 class="projectHeading"><span class="projectHeadingSpan">Projects</span><hr style="margin: 0 25px 0 25px; background-color: #0088ff;
+      height: 10px; border-radius: 4px;"><span class="projectHeadingSub">Here you will find some of the personal and client template projects that I created during my academic journey, with each project containing its own case study.</span></h2>
+
+      <!-- project contents  -->
+
+      <div class="projectContents">
+        <!-- indivisual 1 -->
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                
+                <div class="projectRow">
+                  <div class="projectImgCont">
+                    <img class="projectRowImg" src="./assets/jpeg/project-mockup-example.jpeg" alt="Project Mockup" loading="lazy">
+                  </div>
+                </div>
+
+              </div> 
+
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              
+                <div class="projectRow">
+                  <div class="projectRowCont">
+                    <h3 class="projectRowTitle">Project 1</h3>
+                    <p class="projectRowDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloribus in hic tenetur maxime eligendi aspernatur molestiae reprehenderit, ipsum ducimus quaerat, quidem, quibusdam culpa molestias vitae commodi natus repellat consequatur.</p>
+                    <button class="projectBtn">Case Study</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- indivisual project 2  -->
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                
+                <div class="projectRow">
+                  <div class="projectImgCont">
+                    <img class="projectRowImg" src="./assets/jpeg/project-mockup-example.jpeg" alt="Project Mockup" loading="lazy">
+                  </div>
+                </div>
+
+              </div> 
+
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              
+                <div class="projectRow">
+                  <div class="projectRowCont">
+                    <h3 class="projectRowTitle">Project 2</h3>
+                    <p class="projectRowDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloribus in hic tenetur maxime eligendi aspernatur molestiae reprehenderit, ipsum ducimus quaerat, quidem, quibusdam culpa molestias vitae commodi natus repellat consequatur.</p>
+                    <button class="projectBtn">Case Study</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- indivisual project 3  -->
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                
+                <div class="projectRow">
+                  <div class="projectImgCont">
+                    <img class="projectRowImg" src="./assets/jpeg/project-mockup-example.jpeg" alt="Project Mockup" loading="lazy">
+                  </div>
+                </div>
+
+              </div> 
+
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              
+                <div class="projectRow">
+                  <div class="projectRowCont">
+                    <h3 class="projectRowTitle">Project 3</h3>
+                    <p class="projectRowDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloribus in hic tenetur maxime eligendi aspernatur molestiae reprehenderit, ipsum ducimus quaerat, quidem, quibusdam culpa molestias vitae commodi natus repellat consequatur.</p>
+                    <button class="projectBtn">Case Study</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+    
+          <!-- More Projects Here ....  -->
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section  -->
+  <section class="contactSection" id="contact">
+    <div class="contactContainer">
+      <h2 class="contactHeading"><span class="contactHeadingSpan">Contact</span><span class="contactHeadingDetails">Feel free to Contact me by submitting the form below, and I will surely get back to you as soon as possible. And also, its very easy to connect with me on my&nbsp;<a href="#social">Social Media</a>&nbsp;plateforms.</span></h2>
+
+      
+
+      <!-- contct form   -->
+      <div class="contactFormContainer">
+        <form action="" class="contactForm">
+          <div class="formField">
+            <label class="formLabel" for="name">Name*</label>
+            <input type="text" required placeholder="Enter Your Name" name="name" class="formInput" id="name">
+          </div>
+
+          <div class="formField">
+            <label class="formLabel" for="mobile">Contact Number</label>
+            <input type="tel" placeholder="Enter Your Mobile Number" name="mobile" class="formInput" id="mobile">
+          </div>
+
+          <div class="formField">
+            <label class="formLabel" for="email">Email*</label>
+            <input type="email" required placeholder="Enter Your E-Mail" name="email" class="formInput" id="email">
+          </div>
+
+          <div class="formField">
+            <label class="formLabel" for="message">Message*</label>
+            <textarea name="message" id="Message" cols="30" rows="10" placeholder="[Your Message] Start Typing Here ... " class="formInput" required></textarea>
+          </div>
+
+          <!-- submit button  -->
+          <button type="submit" class="formBtn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section  -->
+  <footer class="mainFooter">
+    <div class="footerContainer">
+      <div class="footerUpper">
+
+        <!-- Bootstrap Class  -->
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+              <div class="footerRow-2">
+                <h4 class="footerRow-2-heading"><span class="footerRow-2-headingSpan">Prabhat Patidar</span></h4>
+                <p class="footerRow-2-Desc">A focused and enthusiastic Frontend Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product design.</p>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <div class="footerRow">
+                  <h2 class="footerHeading"><span class="footerHeadingSpan" id="social">Connect with me</span></h2>
+                  <div class="footerSocialIcons">
+                  <!-- linkedIn icon  -->
+                  <a href="https://www.linkedin.com/in/prabhatrjpatidar/" target="_blank"><img class="footerIconImg" src="./assets/png/linkedin-ico.png" alt="LinkedIn"></a>
+                  <!-- githubIcon  -->
+                  <a href="https://github.com/prabhat-rj-patidar" target="_blank"><img class="footerIconImg" src="./assets/png/github-ico.png" alt="GitHub"></a>
+                  <!-- email Icon  -->
+                  <a href="mailto:ppatidar326@gmail.com" target="_blank"><img class="footerIconImg" src="./assets/png/mail-512.png" alt="E-Mail"></a>
+                  <!-- whatsapp icon  -->
+                  <a href="http://wa.me/8875393298" target="_blank"><img class="footerIconImg" src="./assets/png/whatsapp-512.png" alt="Whatsapp"></a>
+                  <!-- Hashnode icon  -->
+                  <a href="https://hashnode.com/@PrabhatRJPatidar" target="_blank"><img class="footerIconImg" src="./assets/png/hashnode-white.svg" alt="Hashnode"></a>
+
+                  <!-- Instagram icon  -->
+                  <!-- <a href="https://www.instagram.com/prabhat_rj_patidar/"><img class="footerIconImg" src="./assets/png/insta-ico.png" alt="Instagram"></a> -->
+
+                  <!-- Youtube Icon  -->
+                  <!-- <a href="#"><img class="footerIconImg" src="./assets/png/yt-ico.png" alt="Youtube"></a>   -->
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr style="background-color: #ffffff; height: 2px;">
+      <!-- lower footer  -->
+      <div class="footerLower">
+        &copy; Copyright 2023, Made with ❤ by <a class="footerName" href="https://www.instagram.com/prabhat_rj_patidar/" target="_blank">Prabhat RJ Patidar</a>
+      </div>
+      <div class="upside"><a href="#home">⬆⬆⬆</a></div>
+    </div>
+
+    <!-- <div id="mybutton">
+      <button onclick="window.location.href='http://wa.me/8875393298';" class="feedback">👋 Chat with me !! </button>
+    </div> -->
+
+
+  </footer>
+</body>
+</html>
