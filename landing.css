@@ -44,6 +44,22 @@ body{
   color: rgb(0, 0, 0);
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 576px){
+  .navbar-brand{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+  }
+  .profileLogo{
+    width: 50px;
+    margin: 5px 15px;
+    background-color: #3381c7;
+    border-radius: 50%;
+  }
+
+}
 .nav-link{
   font-size: 15px;
   font-weight: 500;
@@ -180,7 +196,9 @@ body{
 }
 @media only screen and (max-width: 768px) {
   .aboutHeadingSub {
-    padding: 30px 40px; } }
+    padding: 30px 20px;
+    font-size: 20px;
+    text-align: justify; } }
 
 /* about sub section  */
 .container{
@@ -192,6 +210,10 @@ body{
   text-align: start;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .aboutSub1Heading{
+    font-size: 32px;
+  } }
 .subdetails{
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
@@ -222,10 +244,14 @@ strong{
 
 .aboutSub2Heading{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   text-align: start;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .aboutSub2Heading{
+    font-size: 32px;
+  } }
 .skillsList{
   display: flex;
   flex-wrap: wrap;
@@ -278,7 +304,8 @@ strong{
 }
 @media only screen and (max-width: 768px) {
   .projectHeadingSub {
-    padding: 30px 40px; } }
+    padding: 30px 20px;
+    text-align: justify; } }
 
 
 /* indivisual project section  */
@@ -353,6 +380,22 @@ strong{
   }
 }
 
+@media only screen and (max-width: 576px){
+  .projectRowTitle{
+    font-size: 30px;
+  }
+  .projectRowDesc{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #808080;
+  }
+  @media only screen and (max-width: 992px) {
+    .projectRowCont {
+      padding-top: 40px;
+      margin: 0 0px }
+}
+}
 
 
 /* contact section  */
@@ -390,6 +433,10 @@ strong{
 @media only screen and (max-width: 768px) {
   .contactHeadingDetails {
     padding: 30px 40px; } }
+@media only screen and (max-width: 576px) {
+  .contactHeadingDetails {
+    padding: 30px 20px; 
+    text-align: justify;} }
 
 /* Contact form section  */
 
@@ -441,7 +488,22 @@ form button{
   border: none;
 }
 
+/* resposive form  */
 
+@media only screen and (max-width: 412px) {
+  .contactFormContainer{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    margin: 4rem auto 0 auto; 
+    max-width: 50rem;
+    text-align: left;
+    border-radius: 5px;
+    padding-bottom: 100px;
+    margin-bottom: 150px;
+  }
+
+   }
 
 /* Footer section  */
 .footerContainer{
